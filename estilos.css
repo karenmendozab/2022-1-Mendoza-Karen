@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body {
+    background-color: #d8ded6;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 1280px;
+}
+            /*header*/
+header{
+    padding: 10px 10px 10px 30px;
+    font-family: 'Dosis', sans-serif;
+    height: 220px;
+    weight: 100%;
+    background-color: #7c65a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    margin: 0px 30px 30px 45px;
+}
+#imagencv{
+    float: left;
+    margin:-150px 10px 0px
+}
+h1 {
+    font-size: 45pt;
+    color: white;
+    text-align: center; 
+    letter-spacing: 1px;
+}
+h3 {
+    font-weight: 300;
+    color: white;
+    font-size: 36px;
+    font-kerning: none;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 9px;
+}
+            /*datos*/
+main{
+    display: flex;
+    flex-direction: row; 
+    margin: 0px 30px 0px 20px;
+}
+.educacion-ilustraciones {
+    width: 65%;
+    margin: 0px 20px 0px 25px;
+    height: 890px;   
+}
+h4{
+    font-size: 25px;
+    letter-spacing: 1pt;
+    background-color: #7c65a9;
+    color: white;
+    font-variant-caps: all-small-caps;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    text-decoration: underline;
+    padding: 2px 15px 7px 15px;
+    width: max-content;       
+}
+ p {
+    padding: 0px 0px 6px 20px;
+    font-size: 16px;
+   
+}
+h5 {
+    font-size: 25px;
+    color:#7c65a9;
+    padding: 0px 0px 4px 8px;
+    
+}
+ul{
+    padding: 0px 0px 6px 20px;
+    list-style: square;
+    list-style-position: inside;
+    font-size: 18px;
+    color: white;
+}
+
+li {
+    color: white;
+    font-size: 18px;
+    padding: 0px 0px 6px 20px;
+    list-style: none;
+}
+
+.imagenes {
+    display: flex;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: stretch;   
+}
+.datos-contacto {
+    background-color: #7c65a9;
+    color: white;
+    width: 35%;
+    margin:0px; 
+    height: 765px;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+        /*footer*/
+h6{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 100%;
+    max-width:1280px; 
+    }
